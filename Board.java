@@ -26,11 +26,11 @@ public class Board {
         }else{
             int rr = 0;
             System.out.println("This position can't be used, please choose empty index");
-            System.out.println("please enter the row: ");
+            System.out.println("please enter one empty row: ");
             rr = cin.nextInt();
             row = rr;
             int cc = 0;
-            System.out.println("please enter the column: ");
+            System.out.println("please enter onr empty column: ");
             cc = cin.nextInt();
             col = cc;
             board[row][col] = Symbol;
