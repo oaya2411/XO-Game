@@ -22,12 +22,12 @@ class player {
         return symbol;
     }
 
-    void getMove(int x, int y) {
-        Scanner in = new Scanner(System.in);
-        System.out.println("Please enter your move:");
-        x = in.nextInt();
-        y = in.nextInt();
+    String getMove(){
 
-
-    }
+    Scanner in = new Scanner(System.in);
+    System.out.println("Please enter your move:");
+    //this string contains two values( first is the x-acix, and second is y-acix
+    String x = in.nextLine();
+    return x;
+}
 }
